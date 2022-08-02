@@ -1,0 +1,13 @@
+.ItemCountStyle p{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.ItemCountStyle {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btnAddToCart {
+    margin-top: 10px;
+}

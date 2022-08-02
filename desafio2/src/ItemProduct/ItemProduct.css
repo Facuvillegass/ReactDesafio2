@@ -1,0 +1,7 @@
+.itemProductStyle{
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+    border: solid 3px rgb(187, 106, 13);
+}

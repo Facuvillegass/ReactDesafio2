@@ -1,0 +1,21 @@
+.itemProductList{
+    width: 60%;
+    height: 25%;
+    text-align: center;
+    border: solid 3px black;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20%;    
+}
+
+
+.itemProductList button {
+    background-color: rgba(240, 217, 84, 0.726);
+    border: solid 3px black;
+   
+}
+
+.imgProductList {
+    height: 200px;
+}

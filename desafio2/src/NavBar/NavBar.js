@@ -1,6 +1,7 @@
-import "./MenuNav.css"
+import CartWidget from "../CartWidget/CartWidget";
+import "./NavBar.css"
 
-function menuNav ()
+function Navbar ()
 {
     return(
         <div>
@@ -21,15 +22,15 @@ function menuNav ()
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Categories </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="#">Soccer</a></li>
-                    <li><a className="dropdown-item" href="#">Tennis</a></li>
-                    <li><a className="dropdown-item" href="#">Paddle</a></li>
+                    <li><a className="dropdown-item" href="#">House</a></li>
+                    <li><a className="dropdown-item" href="#">Sports</a></li>
+                    <li><a className="dropdown-item" href="#">Work</a></li>
                     </ul>
                 </li>
                </ul>
-                <form className="d-flex" role="search">
-                <button className="btn btn-outline-success" type="submit">Search by product</button>
-                </form>
+               <button>
+               <CartWidget />
+               </button>
             </div>
             </div>
         </nav>
@@ -37,4 +38,4 @@ function menuNav ()
     )
 }
 
-export default menuNav()
+export default Navbar;

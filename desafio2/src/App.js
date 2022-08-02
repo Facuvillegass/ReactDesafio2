@@ -1,16 +1,21 @@
 import './App.css';
 import HomePage from './HomePage/HomePage';
-import menuNav from './MenuNav/MenuNav';
+import NavBar from './NavBar/NavBar';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
+import ItemCount from './ItemCount/ItemCount';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
   return (
     <div>
       <header>     
-        {menuNav}
+        <NavBar/>
       </header>
       <main>
-        {HomePage}
+        <HomePage />
+        {/* <ItemListContainer /> */}
+        <ItemDetailContainer/>
       </main>
     </div>
   );
